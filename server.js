@@ -5,6 +5,5 @@ app.use(express.static(__dirname ));
 
 app.listen(80
   , function(){
-  console.log("LISTENING ON PORT 80
-  ")
+  console.log("LISTENING ON PORT 80")
 });
