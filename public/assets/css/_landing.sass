@@ -1,0 +1,144 @@
+/***** LANDING SECTION*****/
+/* LANDING NAV LINKS */
+div.landing-nav
+  display: flex
+  flex-wrap: wrap
+  height: 100%
+  a.nav-link
+    width: 50%
+    height: 50%
+    display: flex
+    justify-content: center
+    align-items: center
+    border: 1px solid $primary-color
+    text-decoration: none
+    color: $primary-color
+    font-size: 1.5rem
+    letter-spacing: 4px
+    &:hover
+      background: $primary-color
+      color: #fff
+  a.about
+    span
+      transform: rotate(-45deg)
+  a.projects
+    span
+      transform: rotate(45deg)
+  a.skills
+    span
+      transform: rotate(45deg)
+  a.contact
+    span
+      transform: rotate(-45deg)
+/* END LANDING NAV LINKS */
+
+/* CENTER TITLE */
+div.title-card
+  position: absolute
+  left: calc(50% - 110px)
+  top: calc(50% - 110px)
+  height: 220px
+  width: 220px
+  background: $primary-color
+  transform: rotate(45deg)
+  div.titles
+    transform: rotate(-45deg)
+    height: 100%
+    width: 100%
+    color: white
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    letter-spacing: 1px
+    div.title
+      font-size: 1.5rem
+      padding: 10px
+      font-weight: 500
+    div.sub-title
+      font-size: .6rem
+      font-weight: 300
+  div.arrow
+    position: absolute
+    border: 4px solid #fff
+    border-left: none
+    border-top: none
+    height: 15px
+    width: 15px
+    display: none
+  .one
+    bottom: 150px
+    right: 150px
+    animation: arrows 2s infinite
+    animation-delay: 1s
+  .two
+    bottom: 158px
+    right: 158px
+    animation: arrows 2s infinite
+    animation-delay: .5s
+  .three
+    bottom: 166px
+    right: 166px
+    animation: arrows 2s infinite
+    animation-delay: 0s
+/* END CENTER TITLE */
+
+/* KEYFRAME ANIMATION FOR SCROLL ARROWS */
+@keyframes arrows
+  0%
+    border-color: #fff
+  25%
+    border-color: $primary-color
+  75%
+    border-color: $primary-color
+  100%
+    border-color: #fff
+/* END KEYFRAME ANIMATION FOR SCROLL ARROWS */
+
+/* LANDING MEDIA QUERIES */
+@media (min-width: 400px) and (orientation: portrait)
+  div.landing-nav
+    a.nav-link
+      font-size: 2rem
+
+@media (min-width: 750px)
+  div.landing-nav
+    a.nav-link
+      font-size: 3rem
+  div.title-card
+    left: calc(50% - 200px)
+    top: calc(50% - 200px)
+    height: 400px
+    width: 400px
+    div.titles
+      letter-spacing: 4px
+      div.title
+        font-size: 2.75rem
+      div.sub-title
+        font-size: 1rem
+
+@media (min-width: 1024px) and (min-height:1000px)
+  div.landing-nav
+    a.nav-link
+      border-width: 3px
+      font-size: 4rem
+  div.title-card
+    left: calc(50% - 300px)
+    top: calc(50% - 300px)
+    height: 600px
+    width: 600px
+    background: #fff
+    border: 5px solid $primary-color
+    div.titles
+      color: $primary-color
+      letter-spacing: 6px
+      div.title
+        font-size: 3rem
+      div.sub-title
+        font-size: 1.5rem
+    div.arrow
+      display: block
+
+/* END LANDING MEDIA QUERIES */
+
+/***** END LANDING SECTION *****/

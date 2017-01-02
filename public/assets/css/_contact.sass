@@ -1,0 +1,30 @@
+/***** CONCTACT SECTION *****/
+
+div.contact-info
+  font-family: $primary-font
+  height: 100%
+  width: 100%
+  padding: 10px
+  display: flex
+  flex-direction: column
+  justify-content: space-around
+  div.contact-link
+    font-size: 1.1rem
+    font-weight: 500
+    letter-spacing: 2px
+    text-align: center
+    a
+      display: inline-block
+      margin-top: 10px
+      font-weight: 300
+      color: $primary-color
+      &:hover
+        opacity: .8
+/* CONTACT MEDIA QUERIES */
+@media (min-width: 750px)
+  div.contact-info
+    div.contact-link
+      font-size: 2rem
+      letter-spacing: 5px
+/* END CONTACT MEDIA QUERIES */
+/***** END CONTACT SECTION *****/

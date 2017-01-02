@@ -1,0 +1,57 @@
+/***** ABOUT SECTION *****/
+
+div.about-section
+  background: none
+
+/* LINES ABOVE AND BELOW PARAGRAPH */
+div.p-line
+  height: 2px
+  width: 30%
+  max-width: 250px
+  background: $primary-color
+  display: none
+/* END LINES ABOVE AND BELOW PARAGRAPH */
+/* ABOUT CONTENT */
+p.info
+  color: $primary-color
+  text-align: justify
+  font-weight: 300
+  padding: 0 15px
+  letter-spacing: 3px
+  line-height: 20px
+  max-width: 750px
+/* END ABOUT CONTENT */
+
+/* ABOUT MEDIA QUERIES */
+@media (min-width: 375px) and (orientation: portrait)
+  p.info
+    font-size: 1.15rem
+    line-height: 25px
+@media (min-width: 400px) and (orientation: portrait)
+
+  p.info
+    font-size: 1.25rem
+    letter-spacing: 5px
+    line-height: 25px
+@media (min-width: 750px)
+  p.info
+    font-size: 2rem
+    padding: 50px 25px 0 25px
+    letter-spacing: 5px
+    line-height: 50px
+@media (min-width: 1024px)
+  div.p-line
+    display: block
+  p.info
+    padding: 50px 00px
+    max-width: 900px
+    width: 90%
+@media (min-width: 2100px)
+  .info
+    font-size: 2.5rem
+    padding: 50px 25px 50px 25px
+    letter-spacing: 5px
+    line-height: 50px
+    max-width: 1000px
+/* END ABOUT MEDIA QUERIES */
+/***** END ABOUT SECTION *****/
