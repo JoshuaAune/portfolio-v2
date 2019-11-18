@@ -568,7 +568,7 @@ div.icons {
 /* END SKILLS ICONS */
 /* ICONS COLOR */
 .logo path {
-  fill: #454545; }
+  fill: #000000; }
 
 /* SKILLS MEDIA QUERIES */
 @media (min-width: 1024px) {
@@ -583,8 +583,8 @@ div.icons {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center; }
-  div.postgres:hover {
-    background: url("./assets/images/icons/postgresql-plain-wordmark.svg");
+  div.wordpress:hover {
+    background: url("./assets/images/icons/wordpress.svg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center; }
@@ -613,8 +613,8 @@ div.icons {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center; }
-  div.node:hover {
-    background: url("./assets/images/icons/nodejs-original.svg");
+  div.mailchimp:hover {
+    background: url("./assets/images/icons/Mailchimp.svg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center; }

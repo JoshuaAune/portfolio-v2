@@ -53,18 +53,18 @@ $(document).ready(function(){
         $('#one').addClass('active-selection')
         break;
       case "index2":
-        title.html("Brew - Weather App")
-        a.prop("href", "https://joshuaaune.github.io/brew2/")
+        title.html("Monk & Mongoose Clone")
+        a.prop("href", "http://138.197.72.80/")
         $('#two').addClass('active-selection')
         break;
       case "index3":
-        title.html("Tic Tac Toe")
-        a.prop("href", "https://joshuaaune.github.io/tic-tac-toe/")
+        title.html("Everest Builders")
+        a.prop("href", "https://joshuaaune.github.io/Everest-Builders/#!/home")
         $('#three').addClass('active-selection')
         break;
       case "index4":
-        title.html("Photography Portfolio")
-        a.prop("href", "http://photographyportfolio.org/#/")
+        title.html("Diabolical Records")
+        a.prop("href", "http://diabolicalrecords.com/about/")
         $('#four').addClass('active-selection')
         break;
       default :
